@@ -74,4 +74,3 @@ Enjoy!
 [1]:  https://github.com/symfony/symfony-standard
 [2]:  http://getcomposer.org
 [3]:  https://github.com/liip/LiipFunctionalTestBundle
-
