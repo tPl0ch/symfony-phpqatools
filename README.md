@@ -15,9 +15,10 @@ This edition requires some Prerequisites to be installed first:
   * A running jenkins CI server instance
 
   * The http://jenkins-php.org/ template implementation.
-    I have included this project's jenkins config.xml file inside the 'build' folder
+    I have included this project's jenkins config.xml file inside the 'build/jenkins-job-template' folder
 
-  * You need to implement some kind of service hook in your project from i.e. GitHub Service to your jenkins instance
+  * You need to implement some kind of service hook in your project from i.e. GitHub Service to your jenkins instance,
+    (or you start your builds by hand in the admin section of your jenkins instance)
 
 1) Installing the PHP-QA-Tools Edition
 ----------------------------------
@@ -46,16 +47,21 @@ Composer will install Symfony and all its dependencies under the
 What's inside?
 ---------------
 
-  * An ant build.xml file that is configured for use with Symfony2 which will gather almost any data your code can deliver
+  * An ant build.xml file that is configured for use with Symfony2 which will gather almost any data your code can
+    deliver, including behat / mink html reporting
 
   * A PhpDox-0.4.0-alpha phpdox.xml.dist that is configured for the project's ant build file
 
   * A Behat configuration file and a Behat Test Scenario in the AcmeDemoBundle
 
+  * A standard PHP Mess Detector xml configuration
+
   * Everything that the framework-standard-edition provides
 
 
 It comes pre-configured with the following additional bundles:
+
+  * **All the behat/* requirements**
 
   * [**LiipFunctionalTestBundle**][3] - Adds several enhancements, including
     template and routing annotation capability
