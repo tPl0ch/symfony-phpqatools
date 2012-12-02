@@ -6,10 +6,13 @@
     <!-- Additional bootstrap files to load for additional parsers and/or engines -->
     <!-- Place as many require nodes as you feel like in this container -->
     <!-- syntax: <require file="/path/to/file.php" /> -->
-    <bootstrap />
+    <bootstrap>
+        <require file="app/autoload.php" />
+        <require file="app/bootstrap.php.cache" />
+    </bootstrap>
 
     <!-- A phpDox project to process, you can have multiple projects in one config file -->
-    <project name="phpqatools-edition" source="./src" workdir="./build/phpdox">
+    <project name="phpqatools-edition" source="src" workdir="build/phpdox">
         <!--  @name    - The name of the project -->
         <!--  @source  - The source directory of the application to process -->
         <!--  @workdir - The directory to store the xml data files in -->
@@ -35,7 +38,7 @@
          -->
 
         <!--  Additional configuration for the collecting process (parse of php code, generation of xml data) -->
-        <collector publiconly="false">
+        <collector publiconly="false" backend="parser">
             <!--  @publiconly - Flag to disable/enable processing of non public methods and members -->
 
             <!--  <include / exclude filter for filelist generator -->
