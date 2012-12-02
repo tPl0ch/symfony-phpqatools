@@ -151,7 +151,6 @@
     <target name="behat" description="Run Behat Scenarios from Bundles">
         <exec executable="php">
             <arg value="./bin/behat" />
-            <arg value="--profile=ci" />
             <arg value="--format=html" />
             <arg value="--out=${basedir}/build/behat/report.html" />
             <arg value="--all" />
