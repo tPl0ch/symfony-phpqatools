@@ -1,6 +1,6 @@
 {
-    "name": "symfony/framework-standard-edition",
-    "description": "The \"Symfony Standard Edition\" distribution",
+    "name": "tp/phpqatools-edition",
+    "description": "The \"Symfony PHP-QA-Tools Edition\" distribution",
     "autoload": {
         "psr-0": { "": "src/" }
     },
@@ -24,7 +24,8 @@
         "behat/symfony2-extension": "dev-develop",
         "behat/mink-extension": "*",
         "behat/mink-browserkit-driver": "*",
-        "behat/mink-selenium2-driver": "*"
+        "behat/mink-selenium2-driver": "*",
+        "liip/functional-test-bundle": "dev-master"
     },
     "repositories": [
         {
