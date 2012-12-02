@@ -30,6 +30,7 @@
         <delete dir="${basedir}/build/phpdox"/>
         <delete dir="${basedir}/build/pdepend"/>
         <delete dir="${basedir}/build/behat"/>
+        <delete file="${basedir}/composer.phar"/>
     </target>
 
     <target name="prepare" depends="clean" description="Prepare for build">
@@ -44,9 +45,9 @@
             <arg path="${basedir}/app/config/parameters.yml.ci" />
             <arg path="${basedir}/app/config/parameters.yml" />
         </exec>
-        <exec executable="php" failonerror="true">
-            <arg value="${basedir}/composer.phar" />
-            <arg value="self-update" />
+        <exec executable="bash">
+            <arg value="-c"/>
+            <arg value="curl -s https://getcomposer.org/installer | php"/>
         </exec>
         <exec executable="php" failonerror="true">
             <arg value="${basedir}/composer.phar" />
