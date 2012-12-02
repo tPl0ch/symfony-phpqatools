@@ -14,7 +14,8 @@ This edition requires some Prerequisites to be installed first:
 
   * A running jenkins CI server instance
 
-  * The http://jenkins-php.org/ template implementation
+  * The http://jenkins-php.org/ template implementation.
+    I have included this project's jenkins config.xml file inside the 'build' folder
 
   * You need to implement some kind of service hook in your project from i.e. GitHub Service to your jenkins instance
 
@@ -45,15 +46,14 @@ Composer will install Symfony and all its dependencies under the
 What's inside?
 ---------------
 
-  * An ant build.xml file that is configured for use with Symfony2 which will gather almost any data your code can deliver;
+  * An ant build.xml file that is configured for use with Symfony2 which will gather almost any data your code can deliver
 
-  * A PhpDox-0.4.0-alpha phpdox.xml.dist that is configured for the project's ant build file;
+  * A PhpDox-0.4.0-alpha phpdox.xml.dist that is configured for the project's ant build file
 
-  * A Behat configuration file and a Behat Test Scenario in the AcmeDemoBundle;
+  * A Behat configuration file and a Behat Test Scenario in the AcmeDemoBundle
 
-  * Everything that the framework-standard-edition
+  * Everything that the framework-standard-edition provides
 
-  * Also includes the liip/functional-test-bundle to get started right away with testing;
 
 It comes pre-configured with the following additional bundles:
 
