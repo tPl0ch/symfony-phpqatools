@@ -7,7 +7,7 @@ Welcome to the Symfony PHP-QA-Tools Edition - a fully-functional Symfony2
 application that you can use as the skeleton for your new applications.
 This edition includes all features from the [**Symfony Standard Edition**][1]
 
-Prereqquisites
+Prerequisites
 ---------------
 
 This edition requires some Prerequisites to be installed first:
@@ -18,7 +18,7 @@ This edition requires some Prerequisites to be installed first:
 
   * You need to implement some kind of service hook in your project from i.e. GitHub Service to your jenkins instance
 
-1) Installing the Standard Edition
+1) Installing the PHP-QA-Tools Edition
 ----------------------------------
 
 When it comes to installing the Symfony Standard Edition, you have the
@@ -38,8 +38,6 @@ Then, use the `create-project` command to generate a new Symfony application:
 
     php composer.phar create-project tp/phpqatools-edition path/to/install 2.1.x-dev
 
-For an exact version, replace 2.1.x-dev with the latest Symfony version (e.g. 2.1.1).
-
 Composer will install Symfony and all its dependencies under the
 `path/to/install` directory.
 
@@ -58,8 +56,6 @@ What's inside?
   * Also includes the liip/functional-test-bundle to get started right away with testing;
 
 It comes pre-configured with the following additional bundles:
-
-  * **FrameworkBundle** - The core Symfony framework bundle
 
   * [**LiipFunctionalTestBundle**][3] - Adds several enhancements, including
     template and routing annotation capability
