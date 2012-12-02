@@ -82,7 +82,7 @@
     </target>
 
     <target name="pdepend" description="Calculate software metrics using PHP_Depend">
-        <exec executable="pdepend">
+        <exec executable="${basedir}/bin/pdepend">
             <arg value="--jdepend-xml=${basedir}/build/logs/jdepend.xml" />
             <arg value="--jdepend-chart=${basedir}/build/pdepend/dependencies.svg" />
             <arg value="--overview-pyramid=${basedir}/build/pdepend/overview-pyramid.svg" />
@@ -92,7 +92,7 @@
 
     <target name="phpmd"
             description="Perform project mess detection using PHPMD and print human readable output. Intended for usage on the command line before committing.">
-        <exec executable="phpmd">
+        <exec executable="${basedir}/bin/phpmd">
             <arg path="${basedir}/src" />
             <arg value="text" />
             <arg value="${basedir}/build/phpmd.xml" />
@@ -100,7 +100,7 @@
     </target>
 
     <target name="phpmd-ci" description="Perform project mess detection using PHPMD creating a log file for the continuous integration server">
-        <exec executable="phpmd">
+        <exec executable="${basedir}/bin/phpmd">
             <arg path="${basedir}/src" />
             <arg value="xml" />
             <arg value="${basedir}/build/phpmd.xml" />
@@ -111,14 +111,14 @@
 
     <target name="phpcs"
             description="Find coding standard violations using PHP_CodeSniffer and print human readable output. Intended for usage on the command line before committing.">
-        <exec executable="phpcs">
+        <exec executable="${basedir}/bin/phpcs">
             <arg value="--standard=PSR2" />
             <arg path="${basedir}/src" />
         </exec>
     </target>
 
     <target name="phpcs-ci" description="Find coding standard violations using PHP_CodeSniffer creating a log file for the continuous integration server">
-        <exec executable="phpcs" output="/dev/null">
+        <exec executable="${basedir}/bin/phpcs" output="/dev/null">
             <arg value="--report=checkstyle" />
             <arg value="--report-file=${basedir}/build/logs/checkstyle.xml" />
             <arg value="--standard=PSR2" />
@@ -142,7 +142,7 @@
     </target>
 
     <target name="phpunit" description="Run unit tests with PHPUnit">
-        <exec executable="phpunit" failonerror="true">
+        <exec executable="${basedir}/bin/phpunit" failonerror="true">
             <arg value="-c" />
             <arg path="${basedir}/app/phpunit.xml.ci" />
         </exec>
@@ -150,7 +150,7 @@
 
     <target name="behat" description="Run Behat Scenarios from Bundles">
         <exec executable="php">
-            <arg value="./bin/behat" />
+            <arg value="${basedir}/bin/behat" />
             <arg value="--format=html" />
             <arg value="--out=${basedir}/build/behat/report.html" />
             <arg value="--all" />
