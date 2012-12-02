@@ -1,6 +1,6 @@
 {
-    "name": "symfony/framework-standard-edition",
-    "description": "The \"Symfony Standard Edition\" distribution",
+    "name": "tp/phpqatools-edition",
+    "description": "The \"Symfony PHP-QA-Tools Edition\" distribution",
     "autoload": {
         "psr-0": { "": "src/" }
     },
@@ -18,8 +18,21 @@
         "sensio/generator-bundle": "2.1.*",
         "jms/security-extra-bundle": "1.2.*",
         "jms/di-extra-bundle": "1.1.*",
-        "kriswallsmith/assetic": "1.1.*@dev"
+        "kriswallsmith/assetic": "1.1.*@dev",
+        "behat/behat":  "2.4.*@stable",
+        "behat/mink":   "1.4.*@stable",
+        "behat/symfony2-extension": "dev-develop",
+        "behat/mink-extension": "*",
+        "behat/mink-browserkit-driver": "*",
+        "behat/mink-selenium2-driver": "*",
+        "liip/functional-test-bundle": "dev-master"
     },
+    "repositories": [
+        {
+            "type": "git",
+            "url": "git://github.com/tPl0ch/Symfony2Extension.git"
+        }
+    ],
     "scripts": {
         "post-install-cmd": [
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::buildBootstrap",
@@ -37,5 +50,8 @@
     "extra": {
         "symfony-app-dir": "app",
         "symfony-web-dir": "web"
+    },
+    "config": {
+        "bin-dir": "bin"
     }
 }
