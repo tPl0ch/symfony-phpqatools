@@ -158,7 +158,7 @@
 
     <target name="phpdoc" description="Generate API documentation using phpDocumentor">
         <exec executable="${basedir}/bin/phpdoc.php">
-            <arg value="--template='data/templates/responsive'" />
+            <arg value="--template='${basedir}/data/templates/responsive'" />
         </exec>
     </target>
 
@@ -180,7 +180,7 @@
     </target>
 
     <target name="phpcb" description="Aggregate tool output with PHP_CodeBrowser">
-        <exec executable="phpcb">
+        <exec executable="${basedir}/bin/phpcb">
             <arg value="--log" />
             <arg path="${basedir}/build/logs" />
             <arg value="--source" />
