@@ -5,5 +5,4 @@ Feature: Descriptive text of what is desired
 
   Scenario: Easily find some business critical page
     Given I am on "*"
-    When I follow "register"
-    Then I should see "Become a member now"
+    Then I should not see "Content"

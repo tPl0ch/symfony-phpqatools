@@ -171,7 +171,7 @@
     </target>
 
     <target name="behat" description="Run Behat Scenarios from Bundles">
-        <exec executable="php">
+        <exec executable="php" failonerror="true">
             <arg value="${basedir}/bin/behat" />
             <arg value="--profile=ci" />
             <arg value="--out=${basedir}/build/behat/report.html" />
