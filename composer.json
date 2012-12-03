@@ -27,6 +27,7 @@
         "phpunit/php-invoker": "1.1.*",
         "squizlabs/php_codesniffer": "1.4.*",
         "phpdocumentor/phpdocumentor": "dev-develop",
+        "pear-phpqatools/PHP_CodeBrowser": "*",
         "phploc/phploc": "dev-master",
         "mikey179/vfsStream": "1.1.*",
         "behat/behat":  "2.4.*@stable",
@@ -49,6 +50,14 @@
         {
             "type":"composer",
             "url":"http://packages.zendframework.com"
+        },
+        {
+            "type": "pear",
+            "url": "pear.phpqatools.org"
+        },
+        {
+            "type": "pear",
+            "url": "pear.php.net"
         }
     ],
     "scripts": {
