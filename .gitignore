@@ -4,5 +4,6 @@ app/cache/*
 app/logs/*
 app/config/parameters.yml
 build/
+bin
 vendor
 composer.phar

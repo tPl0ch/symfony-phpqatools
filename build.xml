@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <project name="phpqatools-edition default build file" default="build">
     <target name="build"
-            depends="prepare,lint,phploc,pdepend,phpmd-ci,phpcs-ci,phpcpd,phpdox,phpunit,behat,phpcb"/>
+            depends="prepare,symfony,lint,phploc,pdepend,phpmd-ci,phpcs-ci,phpcpd,phpdox,phpunit,behat,phpcb"/>
 
     <target name="build-test"
-            depends="prepare,phpunit,behat"/>
+            depends="prepare,symfony,phpunit,behat"/>
 
     <target name="build-parallel"
-            depends="prepare,lint,tools-parallel,phpunit,phpcb"/>
+            depends="prepare,symfony,lint,tools-parallel,phpunit,phpcb"/>
 
     <target name="tools-parallel" description="Run tools in parallel">
         <parallel threadCount="2">
@@ -30,7 +30,6 @@
         <delete dir="${basedir}/build/phpdox"/>
         <delete dir="${basedir}/build/pdepend"/>
         <delete dir="${basedir}/build/behat"/>
-        <delete file="${basedir}/composer.phar"/>
     </target>
 
     <target name="prepare" depends="clean" description="Prepare for build">
@@ -41,10 +40,17 @@
         <mkdir dir="${basedir}/build/pdepend"/>
         <mkdir dir="${basedir}/build/phpdox"/>
         <mkdir dir="${basedir}/build/behat"/>
+    </target>
+
+    <target name="symfony-prepare" description="Adding required files for symfony2 to work">
         <exec executable="cp">
             <arg path="${basedir}/app/config/parameters.yml.ci" />
             <arg path="${basedir}/app/config/parameters.yml" />
         </exec>
+    </target>
+
+    <target name="composer" description="Install packages and dependencies via composer">
+        <delete file="${basedir}/composer.phar"/>
         <exec executable="bash">
             <arg value="-c"/>
             <arg value="curl -s https://getcomposer.org/installer | php"/>
@@ -55,12 +61,27 @@
             <arg value="-v" />
             <arg value="--prefer-source" />
         </exec>
+    </target>
+
+    <target name="symfony-cc" description="Clears cache for various environments">
         <exec executable="php" failonerror="true">
             <arg value="${basedir}/app/console" />
             <arg value="cache:clear" />
-            <arg value="-env=test" />
+            <arg value="--env=prod" />
+        </exec>
+        <exec executable="php" failonerror="true">
+            <arg value="${basedir}/app/console" />
+            <arg value="cache:clear" />
+            <arg value="--env=dev" />
+        </exec>
+        <exec executable="php" failonerror="true">
+            <arg value="${basedir}/app/console" />
+            <arg value="cache:clear" />
+            <arg value="--env=test" />
         </exec>
     </target>
+
+    <target name="symfony" depends="symfony-prepare,composer,symfony-cc" />
 
     <target name="lint" description="Perform syntax check of sourcecode files">
         <apply executable="php" failonerror="true">
@@ -151,10 +172,10 @@
     <target name="behat" description="Run Behat Scenarios from Bundles">
         <exec executable="php">
             <arg value="${basedir}/bin/behat" />
-            <arg value="--format=html" />
+            <arg value="--profile=ci" />
             <arg value="--out=${basedir}/build/behat/report.html" />
             <arg value="--all" />
-            <arg path="." />
+            <arg path="${basedir}/src" />
         </exec>
     </target>
 
