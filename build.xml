@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <project name="phpqatools-edition default build file" default="build">
     <target name="build"
-            depends="prepare,symfony,lint,phploc,pdepend,phpmd-ci,phpcs-ci,phpcpd,phpdox,phpunit,behat,phpcb"/>
+            depends="prepare,symfony,lint,phploc,pdepend,phpmd-ci,phpcs-ci,phpcpd,phpdoc,phpunit,behat,phpcb"/>
 
     <target name="build-test"
             depends="prepare,symfony,phpunit,behat"/>
