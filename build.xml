@@ -44,6 +44,7 @@
 
     <target name="symfony-prepare" description="Adding required files for symfony2 to work">
         <exec executable="cp">
+            <arg value="-v" />
             <arg path="${basedir}/app/config/parameters.yml.ci" />
             <arg path="${basedir}/app/config/parameters.yml" />
         </exec>
