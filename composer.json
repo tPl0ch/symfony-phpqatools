@@ -37,13 +37,13 @@
     "repositories": [
         {
             "type": "git",
-            "url": "git://github.com/tPl0ch/Symfony2Extension.git"
+            "url": "https://github.com/tPl0ch/Symfony2Extension.git"
         }
     ],
     "scripts": {
         "post-install-cmd": [
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::buildBootstrap",
-            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::clearphpunit/phpunit-seleniumCache",
+            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::clearCache",
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installAssets",
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile"
         ],
