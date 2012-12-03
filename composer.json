@@ -22,9 +22,11 @@
         "phpunit/phpunit": "3.7.*",
         "phpunit/phpunit-selenium": "1.2.*",
         "pdepend/pdepend": "1.1.*",
+        "pear-pear.phpunit.de/phpcpd": "*",
         "phpmd/phpmd": "*",
         "phpunit/php-invoker": "1.1.*",
         "squizlabs/php_codesniffer": "1.4.*",
+        "phpdocumentor/phpdocumentor": "dev-develop",
         "phploc/phploc": "dev-master",
         "mikey179/vfsStream": "1.1.*",
         "behat/behat":  "2.4.*@stable",
@@ -38,7 +40,15 @@
     "repositories": [
         {
             "type": "git",
-            "url": "git://github.com/tPl0ch/Symfony2Extension.git"
+            "url": "https://github.com/tPl0ch/Symfony2Extension.git"
+        },
+        {
+            "type": "pear",
+            "url": "pear.phpunit.de"
+        },
+        {
+            "type":"composer",
+            "url":"http://packages.zendframework.com"
         }
     ],
     "scripts": {

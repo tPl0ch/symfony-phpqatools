@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<phpdocumentor>
+    <parser>
+        <default-package-name>symfony-phpqatools</default-package-name>
+        <target>build/phpDocumentor</target>
+    </parser>
+    <transformer>
+        <target>build/api</target>
+    </transformer>
+    <files>
+        <directory>./src</directory>
+        <ignore>vendor/*</ignore>
+    </files>
+</phpdocumentor>

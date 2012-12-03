@@ -149,17 +149,16 @@
     </target>
 
     <target name="phpcpd" description="Find duplicate code using PHPCPD">
-        <exec executable="phpcpd">
+        <exec executable="${basedir}/bin/phpcpd">
             <arg value="--log-pmd" />
             <arg value="${basedir}/build/logs/pmd-cpd.xml" />
             <arg path="${basedir}/src" />
         </exec>
     </target>
 
-    <target name="phpdox" description="Generate API documentation using phpDox">
-        <exec executable="phpdox">
-            <arg value="-f" />
-            <arg value="${basedir}/phpdox.xml.dist" />
+    <target name="phpdoc" description="Generate API documentation using phpDocumentor">
+        <exec executable="${basedir}/bin/phpdoc.php">
+            <arg value="--template='data/templates/responsive'" />
         </exec>
     </target>
 
