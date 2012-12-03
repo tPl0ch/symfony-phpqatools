@@ -1,5 +1,5 @@
 {
-    "hash": "32736c58fd5d916137fee0f7a555399f",
+    "hash": "225e70c788db3ac5f1349356583bf3ad",
     "packages": [
         {
             "name": "behat/behat",
@@ -42,7 +42,6 @@
                     "Behat\\Behat": "src/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -97,7 +96,6 @@
                     "Behat\\Gherkin": "src/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -159,7 +157,6 @@
                     "Behat\\Mink": "src/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -205,7 +202,6 @@
                     "Behat\\Mink\\Driver": "src/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -254,7 +250,6 @@
                     "Behat\\MinkExtension": "src/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -301,7 +296,6 @@
                     "Behat\\Mink\\Driver": "src/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -369,29 +363,29 @@
         },
         {
             "name": "doctrine/common",
-            "version": "2.3.0",
+            "version": "2.3.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/common",
-                "reference": "2.3.0"
+                "reference": "bb0aebbf234db52df476a2b473d434745b34221c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/doctrine/common/zipball/2.3.0",
-                "reference": "2.3.0",
+                "url": "https://github.com/doctrine/common/archive/bb0aebbf234db52df476a2b473d434745b34221c.zip",
+                "reference": "bb0aebbf234db52df476a2b473d434745b34221c",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.2"
             },
-            "time": "2012-09-19 22:55:18",
+            "time": "2012-09-20 05:55:18",
             "type": "library",
             "extra": {
                 "branch-alias": {
                     "dev-master": "2.3.x-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-0": {
                     "Doctrine\\Common": "lib/"
@@ -461,7 +455,7 @@
                     "dev-master": "2.3.x-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-0": {
                     "Doctrine\\DBAL": "lib/"
@@ -535,7 +529,7 @@
                     "dev-master": "1.0.x-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-0": {
                     "Doctrine\\Bundle\\DoctrineBundle": ""
@@ -601,7 +595,7 @@
                     "dev-master": "2.3.x-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-0": {
                     "Doctrine\\ORM": "lib/"
@@ -662,7 +656,6 @@
                     "WebDriver": "lib/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "Apache"
             ],
@@ -708,7 +701,7 @@
             },
             "time": "2012-01-02 12:50:26",
             "type": "symfony-bundle",
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-0": {
                     "JMS\\AopBundle": ""
@@ -750,7 +743,7 @@
             },
             "time": "2012-01-02 12:40:52",
             "type": "library",
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-0": {
                     "CG\\": "src/"
@@ -809,7 +802,7 @@
             },
             "time": "2012-09-21 01:56:32",
             "type": "symfony-bundle",
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-0": {
                     "JMS\\DiExtraBundle": ""
@@ -852,7 +845,7 @@
             },
             "time": "2012-01-02 13:32:49",
             "type": "library",
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-0": {
                     "Metadata\\": "src/"
@@ -915,7 +908,7 @@
             },
             "time": "2012-09-06 09:12:03",
             "type": "symfony-bundle",
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-0": {
                     "JMS\\SecurityExtraBundle": ""
@@ -1041,7 +1034,6 @@
                     "Liip\\FunctionalTestBundle": ""
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -1085,7 +1077,6 @@
                     "org\\bovigo\\vfs": "src/main/php"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "BSD"
             ],
@@ -1123,7 +1114,7 @@
                     "dev-master": "1.3.x-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-0": {
                     "Monolog": "src/"
@@ -1170,8 +1161,50 @@
             ],
             "type": "library",
             "installation-source": "source",
-            "notification-url": "https://packagist.org/downloads/",
             "description": "Official version of pdepend to be handled with Composer"
+        },
+        {
+            "name": "phploc/phploc",
+            "version": "1.7.4",
+            "source": {
+                "type": "git",
+                "url": "git://github.com/sebastianbergmann/phploc.git",
+                "reference": "1.7.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/sebastianbergmann/phploc/archive/1.7.4.zip",
+                "reference": "1.7.4",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3",
+                "symfony/finder": "2.1.x-dev",
+                "zetacomponents/console-tools": "dev-master"
+            },
+            "time": "2012-11-10 12:45:44",
+            "bin": [
+                "composer/bin/phploc"
+            ],
+            "type": "library",
+            "installation-source": "source",
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Bergmann",
+                    "email": "sebastian@phpunit.de",
+                    "role": "lead"
+                }
+            ],
+            "description": "A tool for quickly measuring the size of a PHP project.",
+            "homepage": "https://github.com/sebastianbergmann/phploc"
         },
         {
             "name": "phpmd/phpmd",
@@ -1197,7 +1230,6 @@
             ],
             "type": "library",
             "installation-source": "source",
-            "notification-url": "https://packagist.org/downloads/",
             "include-path": [
                 "../../pdepend/pdepend/src/main/php",
                 "src/main/php"
@@ -1236,7 +1268,6 @@
                     "PHP/"
                 ]
             },
-            "notification-url": "https://packagist.org/downloads/",
             "include-path": [
                 ""
             ],
@@ -1283,7 +1314,6 @@
                     "File/"
                 ]
             },
-            "notification-url": "https://packagist.org/downloads/",
             "include-path": [
                 ""
             ],
@@ -1331,7 +1361,6 @@
                     "PHP/"
                 ]
             },
-            "notification-url": "https://packagist.org/downloads/",
             "include-path": [
                 ""
             ],
@@ -1376,7 +1405,6 @@
                     "Text/"
                 ]
             },
-            "notification-url": "https://packagist.org/downloads/",
             "include-path": [
                 ""
             ],
@@ -1421,7 +1449,6 @@
                     "PHP/"
                 ]
             },
-            "notification-url": "https://packagist.org/downloads/",
             "include-path": [
                 ""
             ],
@@ -1467,7 +1494,6 @@
                     "PHP/"
                 ]
             },
-            "notification-url": "https://packagist.org/downloads/",
             "include-path": [
                 ""
             ],
@@ -1536,7 +1562,6 @@
                     "PHPUnit/"
                 ]
             },
-            "notification-url": "https://packagist.org/downloads/",
             "include-path": [
                 "",
                 "../../symfony/yaml/"
@@ -1588,7 +1613,6 @@
                     "PHPUnit/"
                 ]
             },
-            "notification-url": "https://packagist.org/downloads/",
             "include-path": [
                 ""
             ],
@@ -1637,7 +1661,6 @@
                     "PHPUnit/"
                 ]
             },
-            "notification-url": "https://packagist.org/downloads/",
             "include-path": [
                 ""
             ],
@@ -1684,7 +1707,7 @@
                     "dev-master": "2.1.x-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-0": {
                     "Sensio\\Bundle\\DistributionBundle": ""
@@ -1731,7 +1754,7 @@
                     "dev-master": "2.1.x-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-0": {
                     "Sensio\\Bundle\\FrameworkExtraBundle": ""
@@ -1783,7 +1806,7 @@
                     "dev-master": "2.1.x-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-0": {
                     "Sensio\\Bundle\\GeneratorBundle": ""
@@ -1823,7 +1846,6 @@
             ],
             "type": "library",
             "installation-source": "source",
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "BSD-3-Clause"
             ],
@@ -1864,7 +1886,7 @@
                     "dev-master": "4.2-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "files": [
                     "lib/swift_required.php"
@@ -1928,7 +1950,7 @@
                     "dev-master": "2.1.x-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-0": {
                     "Symfony\\Bundle\\AsseticBundle": ""
@@ -1985,7 +2007,7 @@
                     "dev-master": "2.1.x-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-0": {
                     "Symfony\\Bundle\\MonologBundle": ""
@@ -2039,7 +2061,7 @@
                     "dev-master": "2.1-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-0": {
                     "Symfony\\Bundle\\SwiftmailerBundle": ""
@@ -2063,16 +2085,16 @@
         },
         {
             "name": "symfony/symfony",
-            "version": "v2.1.4",
+            "version": "2.1.x-dev",
             "source": {
                 "type": "git",
                 "url": "git://github.com/symfony/symfony.git",
-                "reference": "v2.1.4"
+                "reference": "a82f3ed134405361381fba79de65791b0d15f3b8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/symfony/symfony/archive/v2.1.4.zip",
-                "reference": "v2.1.4",
+                "url": "https://github.com/symfony/symfony/archive/a82f3ed134405361381fba79de65791b0d15f3b8.zip",
+                "reference": "a82f3ed134405361381fba79de65791b0d15f3b8",
                 "shasum": ""
             },
             "require": {
@@ -2121,14 +2143,14 @@
                 "propel/propel1": "dev-master",
                 "monolog/monolog": "1.*"
             },
-            "time": "2012-11-29 11:56:19",
+            "time": "2012-12-02 18:01:07",
             "type": "library",
             "extra": {
                 "branch-alias": {
                     "dev-master": "2.1-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-0": {
                     "Symfony": "src/",
@@ -2203,29 +2225,29 @@
         },
         {
             "name": "twig/twig",
-            "version": "v1.11.1",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "git://github.com/fabpot/Twig.git",
-                "reference": "v1.11.1"
+                "reference": "6810dbe8a7be204813a4397b1bddcfdb875fe2e2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/fabpot/Twig/archive/v1.11.1.zip",
-                "reference": "v1.11.1",
+                "url": "https://github.com/fabpot/Twig/archive/6810dbe8a7be204813a4397b1bddcfdb875fe2e2.zip",
+                "reference": "6810dbe8a7be204813a4397b1bddcfdb875fe2e2",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.2.4"
             },
-            "time": "2012-11-11 17:17:59",
+            "time": "2012-12-01 18:41:29",
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.11-dev"
+                    "dev-master": "1.12-dev"
                 }
             },
-            "installation-source": "dist",
+            "installation-source": "source",
             "autoload": {
                 "psr-0": {
                     "Twig_": "lib/"
@@ -2249,14 +2271,144 @@
             "keywords": [
                 "templating"
             ]
+        },
+        {
+            "name": "zetacomponents/base",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zetacomponents/Base.git",
+                "reference": "642f63a8a72c32996f1aaf8a317fdf746bc32ce7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/zetacomponents/Base/archive/642f63a8a72c32996f1aaf8a317fdf746bc32ce7.zip",
+                "reference": "642f63a8a72c32996f1aaf8a317fdf746bc32ce7",
+                "shasum": ""
+            },
+            "require-dev": {
+                "zetacomponents/unit-test": "*"
+            },
+            "time": "2012-05-21 11:21:36",
+            "type": "library",
+            "installation-source": "source",
+            "autoload": {
+                "classmap": [
+                    "src"
+                ]
+            },
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Sergey Alexeev"
+                },
+                {
+                    "name": "Sebastian Bergmann"
+                },
+                {
+                    "name": "Jan Borsodi"
+                },
+                {
+                    "name": "Raymond Bosman"
+                },
+                {
+                    "name": "Frederik Holljen"
+                },
+                {
+                    "name": "Kore Nordmann"
+                },
+                {
+                    "name": "Derick Rethans"
+                },
+                {
+                    "name": "Vadym Savchuk"
+                },
+                {
+                    "name": "Tobias Schlitt"
+                },
+                {
+                    "name": "Alexandru Stanoi"
+                }
+            ],
+            "description": "The Base package provides the basic infrastructure that all packages rely on. Therefore every component relies on this package.",
+            "homepage": "https://github.com/zetacomponents"
+        },
+        {
+            "name": "zetacomponents/console-tools",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zetacomponents/ConsoleTools.git",
+                "reference": "90156abef01e4215fda8b9740f77c322f126fb02"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/zetacomponents/ConsoleTools/archive/90156abef01e4215fda8b9740f77c322f126fb02.zip",
+                "reference": "90156abef01e4215fda8b9740f77c322f126fb02",
+                "shasum": ""
+            },
+            "require": {
+                "zetacomponents/base": "*"
+            },
+            "require-dev": {
+                "zetacomponents/unit-test": "*"
+            },
+            "time": "2012-05-21 09:55:34",
+            "type": "library",
+            "installation-source": "source",
+            "autoload": {
+                "classmap": [
+                    "src"
+                ]
+            },
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Sergey Alexeev"
+                },
+                {
+                    "name": "Sebastian Bergmann"
+                },
+                {
+                    "name": "Jan Borsodi"
+                },
+                {
+                    "name": "Raymond Bosman"
+                },
+                {
+                    "name": "Frederik Holljen"
+                },
+                {
+                    "name": "Kore Nordmann"
+                },
+                {
+                    "name": "Derick Rethans"
+                },
+                {
+                    "name": "Vadym Savchuk"
+                },
+                {
+                    "name": "Tobias Schlitt"
+                },
+                {
+                    "name": "Alexandru Stanoi"
+                }
+            ],
+            "description": "A set of classes to do different actions with the console (also called shell). It can render a progress bar, tables and a status bar and contains a class for parsing command line options.",
+            "homepage": "https://github.com/zetacomponents"
         }
     ],
     "packages-dev": null,
     "aliases": [
 
     ],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "stability-flags": {
+        "symfony/symfony": 20,
         "twig/extensions": 20,
         "kriswallsmith/assetic": 20,
         "behat/behat": 0,

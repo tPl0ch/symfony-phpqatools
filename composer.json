@@ -6,7 +6,7 @@
     },
     "require": {
         "php": ">=5.3.3",
-        "symfony/symfony": "2.1.*",
+        "symfony/symfony": "2.1.x-dev",
         "doctrine/orm": ">=2.2.3,<2.4-dev",
         "doctrine/doctrine-bundle": "1.0.*",
         "twig/extensions": "1.0.*@dev",
@@ -25,6 +25,7 @@
         "phpmd/phpmd": "*",
         "phpunit/php-invoker": "1.1.*",
         "squizlabs/php_codesniffer": "1.4.*",
+        "phploc/phploc": "1.7.*",
         "mikey179/vfsStream": "1.1.*",
         "behat/behat":  "2.4.*@stable",
         "behat/mink":   "1.4.*@stable",
@@ -60,5 +61,6 @@
     },
     "config": {
         "bin-dir": "bin"
-    }
+    },
+    "minimum-stability": "dev"
 }
