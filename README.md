@@ -7,20 +7,58 @@ Welcome to the Symfony PHP-QA-Tools Edition - a fully-functional Symfony2
 application that you can use as the skeleton for your new applications.
 This edition includes all features from the [**Symfony Standard Edition**][1]
 
-Prerequisites
+1) Overview
+----------
+
+This Symfony2 edition comes packed with a large set of tools that you need for measuring the quality of your PHP code.
+
+What's inside:
+
+  * Of course everything that the standard edition provides
+
+  * PHPUnit (incl. Selenium extension and php-invoker)
+
+  * PDepend
+
+  * PHP_CodeSniffer
+
+  * PHP_CodeBrowser
+
+  * PHP Mess Detector (including a phpmd.xml default config)
+
+  * vfsStream (for abstracting filesystem access in tests)
+
+  * Behat with Mink (Symfony2 extension, incl. BrowserKit & Selenium2 driver)
+    Some example Behat Feature Scenario in the AcmeDemoBundle to get you started.
+
+  * PHPLOC
+
+  * PHPCPD (Currently broken due to package problems)
+
+  * phpDocumentor2 (incl. various templates)
+
+  * DoctrineFixturesBundle
+
+  * LiipFunctionalTestBundle
+
+  * ANT build file with a collection of useful build tasks
+
+  * A Jenkins project template (See it in action [**here**][2])
+
+
+2) Prerequisites
 ---------------
 
-This edition requires some Prerequisites to be installed first:
+The following PHP extensions need to be installed before you start:
 
-  * A running jenkins CI server instance
+  * php5-xsl
 
-  * The http://jenkins-php.org/ template implementation.
-    I have included this project's jenkins config.xml file inside the 'build/jenkins-job-template' folder
+  * php5-intl
 
-  * You need to implement some kind of service hook in your project from i.e. GitHub Service to your jenkins instance,
-    (or you start your builds by hand in the admin section of your jenkins instance)
+  * XDebug (for PHPUnit CodeCoverage)
 
-1) Installing the PHP-QA-Tools Edition
+
+3) Installing the PHP-QA-Tools Edition
 ----------------------------------
 
 When it comes to installing the Symfony Standard Edition, you have the
@@ -28,7 +66,7 @@ following options.
 
 ### Use Composer (*recommended*)
 
-As Symfony uses [Composer][2] to manage its dependencies, the recommended way
+As Symfony uses [Composer][3] to manage its dependencies, the recommended way
 to create a new project is to use it.
 
 If you don't have Composer yet, download it following the instructions on
@@ -44,33 +82,9 @@ Composer will install Symfony and all its dependencies under the
 `path/to/install` directory.
 
 
-What's inside?
----------------
-
-  * An ant build.xml file that is configured for use with Symfony2 which will gather almost any data your code can
-    deliver, including behat / mink html reporting
-
-  * A PhpDox-0.4.0-alpha phpdox.xml.dist that is configured for the project's ant build file
-
-  * A Behat configuration file and a Behat Test Scenario in the AcmeDemoBundle
-
-  * A standard PHP Mess Detector xml configuration
-
-  * Everything that the framework-standard-edition provides
-
-
-It comes pre-configured with the following additional bundles:
-
-  * **All the behat/* requirements**
-
-  * [**LiipFunctionalTestBundle**][3] - Adds several enhancements, including
-    template and routing annotation capability
-
-  * **AcmeDemoBundle** (in dev/test env) - A demo bundle with some example
-    code and behat scenarios
 
 Enjoy!
 
 [1]:  https://github.com/symfony/symfony-standard
-[2]:  http://getcomposer.org
-[3]:  https://github.com/liip/LiipFunctionalTestBundle
+[2]:  http://ci.responsive-code.de/jenkins/job/symfony-phpqatools
+[3]:  http://getcomposer.org
