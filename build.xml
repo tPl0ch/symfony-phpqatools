@@ -27,7 +27,7 @@
         <delete dir="${basedir}/build/code-browser"/>
         <delete dir="${basedir}/build/coverage"/>
         <delete dir="${basedir}/build/logs"/>
-        <delete dir="${basedir}/build/phpdox"/>
+        <delete dir="${basedir}/build/phpDocumentor"/>
         <delete dir="${basedir}/build/pdepend"/>
         <delete dir="${basedir}/build/behat"/>
     </target>
@@ -38,7 +38,7 @@
         <mkdir dir="${basedir}/build/coverage"/>
         <mkdir dir="${basedir}/build/logs"/>
         <mkdir dir="${basedir}/build/pdepend"/>
-        <mkdir dir="${basedir}/build/phpdox"/>
+        <mkdir dir="${basedir}/build/phpDocumentor"/>
         <mkdir dir="${basedir}/build/behat"/>
     </target>
 
@@ -82,7 +82,9 @@
         </exec>
     </target>
 
-    <target name="symfony" depends="symfony-prepare,composer,symfony-cc" />
+    <target name="symfony" depends="symfony-prepare,composer,symfony-cc">
+        <echo message="Symfony2 tasks end" />
+    </target>
 
     <target name="lint" description="Perform syntax check of sourcecode files">
         <apply executable="php" failonerror="true">
