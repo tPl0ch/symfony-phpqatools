@@ -16,34 +16,34 @@ What's inside:
 
   * Of course everything that the standard edition provides
 
-  * PHPUnit (incl. Selenium extension and php-invoker)
+  * **PHPUnit** (incl. Selenium extension and php-invoker)
 
-  * PDepend
+  * **PDepend**
 
-  * PHP_CodeSniffer
+  * **PHP_CodeSniffer**
 
-  * PHP_CodeBrowser
+  * **PHP_CodeBrowser**
 
-  * PHP Mess Detector (including a phpmd.xml default config)
+  * **PHP Mess Detector** (including a phpmd.xml default config)
 
-  * vfsStream (for abstracting filesystem access in tests)
+  * **vfsStream** (for abstracting filesystem access in tests)
 
-  * Behat with Mink (Symfony2 extension, incl. BrowserKit & Selenium2 driver)
+  * **Behat with Mink** (Symfony2 extension, incl. BrowserKit & Selenium2 driver).
     Some example Behat Feature Scenario in the AcmeDemoBundle to get you started.
 
-  * PHPLOC
+  * **PHPLOC**
 
-  * PHPCPD (Currently broken due to package problems)
+  * **PHPCPD (Currently broken due to package problems)**
 
-  * phpDocumentor2 (incl. various templates)
+  * **phpDocumentor2** (incl. various templates)
 
-  * DoctrineFixturesBundle
+  * **DoctrineFixturesBundle**
 
-  * LiipFunctionalTestBundle
+  * **LiipFunctionalTestBundle**
 
-  * ANT build file with a collection of useful build tasks
+  * **ANT build file** with a collection of useful build tasks
 
-  * A Jenkins project template (See it in action [**here**][2])
+  * **Jenkins project template** (See it in action [**here**][2])
 
 
 2) Prerequisites
@@ -60,11 +60,6 @@ The following PHP extensions need to be installed before you start:
 
 3) Installing the PHP-QA-Tools Edition
 ----------------------------------
-
-When it comes to installing the Symfony Standard Edition, you have the
-following options.
-
-### Use Composer (*recommended*)
 
 As Symfony uses [Composer][3] to manage its dependencies, the recommended way
 to create a new project is to use it.
