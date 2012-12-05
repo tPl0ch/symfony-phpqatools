@@ -178,7 +178,6 @@
             <arg value="--profile=ci" />
             <arg value="--out=${basedir}/build/behat/report.html" />
             <arg value="--all" />
-            <arg path="${basedir}/src" />
         </exec>
     </target>
 

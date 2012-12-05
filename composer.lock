@@ -328,8 +328,8 @@
             "version": "dev-develop",
             "source": {
                 "type": "git",
-                "url": "git://github.com/tPl0ch/Symfony2Extension.git",
-                "reference": "a962bdfd00606a43d5d34b3bdf7ac1481c9e1fd2"
+                "url": "https://github.com/tPl0ch/Symfony2Extension.git",
+                "reference": "dceb68a864446de788021675b262ce48f1884391"
             },
             "require": {
                 "php": ">=5.3.2",
@@ -342,7 +342,7 @@
                 "behat/mink-extension": "dev-master",
                 "behat/mink-browserkit-driver": "dev-master"
             },
-            "time": "2012-12-02 05:18:36",
+            "time": "2012-12-04 06:41:17",
             "type": "behat-extension",
             "installation-source": "source",
             "autoload": {
