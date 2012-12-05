@@ -1,6 +1,6 @@
 default:
   formatter:
-    name: progress
+    name: pretty
   extensions:
     Behat\Symfony2Extension\Extension:
       mink_driver: true
