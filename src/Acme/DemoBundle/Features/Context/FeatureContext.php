@@ -20,9 +20,10 @@ use Behat\Gherkin\Node\PyStringNode,
 
 /**
  * Feature context.
+ *
+ * Extend BehatContext if you don't want to test web
  */
-class FeatureContext extends BehatContext //MinkContext if you want to test web
-                  implements KernelAwareInterface
+class FeatureContext extends MinkContext implements KernelAwareInterface
 {
     private $kernel;
     private $parameters;
