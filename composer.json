@@ -24,7 +24,6 @@
         "pdepend/pdepend": "1.1.*",
         "pear-pear.phpunit.de/phpcpd": "*",
         "phpmd/phpmd": "*",
-        "phpunit/php-invoker": "1.1.*",
         "squizlabs/php_codesniffer": "1.4.*",
         "phpdocumentor/phpdocumentor": "dev-develop",
         "pear-phpqatools/PHP_CodeBrowser": "*",
@@ -75,6 +74,9 @@
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installAssets",
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile"
         ]
+    },
+    "suggest": {
+        "phpunit/php-invoker": "Utility class for invoking callables with a timeout."
     },
     "extra": {
         "symfony-app-dir": "app",

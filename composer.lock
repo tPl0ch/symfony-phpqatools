@@ -1,5 +1,5 @@
 {
-    "hash": "bbad4dc9e5d9e8e13b9852b9e9c05b3a",
+    "hash": "cfe0b0ff762edbc845a212899a9dc3c6",
     "packages": [
         {
             "name": "behat/behat",
@@ -42,7 +42,6 @@
                     "Behat\\Behat": "src/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -97,7 +96,6 @@
                     "Behat\\Gherkin": "src/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -159,7 +157,6 @@
                     "Behat\\Mink": "src/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -205,7 +202,6 @@
                     "Behat\\Mink\\Driver": "src/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -230,12 +226,12 @@
             "source": {
                 "type": "git",
                 "url": "git://github.com/Behat/MinkExtension.git",
-                "reference": "880fc457e056924694f7bb396842548ef2d8b3a1"
+                "reference": "064cb78ff179e38a9b4c005c9b4a766e826873df"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/Behat/MinkExtension/archive/880fc457e056924694f7bb396842548ef2d8b3a1.zip",
-                "reference": "880fc457e056924694f7bb396842548ef2d8b3a1",
+                "url": "https://github.com/Behat/MinkExtension/archive/064cb78ff179e38a9b4c005c9b4a766e826873df.zip",
+                "reference": "064cb78ff179e38a9b4c005c9b4a766e826873df",
                 "shasum": ""
             },
             "require": {
@@ -246,7 +242,7 @@
             "require-dev": {
                 "behat/mink-goutte-driver": "*"
             },
-            "time": "2012-11-21 00:22:28",
+            "time": "2012-12-05 00:48:24",
             "type": "behat-extension",
             "installation-source": "source",
             "autoload": {
@@ -301,7 +297,6 @@
                     "Behat\\Mink\\Driver": "src/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -328,8 +323,8 @@
             "version": "dev-develop",
             "source": {
                 "type": "git",
-                "url": "git://github.com/tPl0ch/Symfony2Extension.git",
-                "reference": "a962bdfd00606a43d5d34b3bdf7ac1481c9e1fd2"
+                "url": "https://github.com/tPl0ch/Symfony2Extension.git",
+                "reference": "a6346c40c51144eae7f39ce0ef01ad60b58afa2a"
             },
             "require": {
                 "php": ">=5.3.2",
@@ -342,7 +337,7 @@
                 "behat/mink-extension": "dev-master",
                 "behat/mink-browserkit-driver": "dev-master"
             },
-            "time": "2012-12-02 05:18:36",
+            "time": "2012-12-05 07:40:59",
             "type": "behat-extension",
             "installation-source": "source",
             "autoload": {
@@ -409,7 +404,6 @@
                     "Cilex": "src/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -456,7 +450,6 @@
                     "dflydev\\markdown": "src"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "BSD-3-Clause"
             ],
@@ -516,7 +509,6 @@
                     "Doctrine\\Common": "lib/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -613,19 +605,19 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/dbal",
-                "reference": "22a30c9cece379eab619727c83e1859288f32f89"
+                "reference": "f63af1948a609a96b8ea1c1302c7cdf2f9f51468"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/doctrine/dbal/archive/22a30c9cece379eab619727c83e1859288f32f89.zip",
-                "reference": "22a30c9cece379eab619727c83e1859288f32f89",
+                "url": "https://github.com/doctrine/dbal/archive/f63af1948a609a96b8ea1c1302c7cdf2f9f51468.zip",
+                "reference": "f63af1948a609a96b8ea1c1302c7cdf2f9f51468",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.2",
                 "doctrine/common": "2.3.*"
             },
-            "time": "2012-11-25 18:03:29",
+            "time": "2012-12-04 21:06:56",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -714,7 +706,6 @@
                     "Doctrine\\Bundle\\DoctrineBundle": ""
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -801,12 +792,12 @@
             "source": {
                 "type": "git",
                 "url": "git://github.com/doctrine/doctrine2.git",
-                "reference": "287b29aeaada588923a47e677d6974b023f88fd4"
+                "reference": "59aef2ca950ab30c72dbbd77f9ae446551751e58"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/doctrine/doctrine2/archive/287b29aeaada588923a47e677d6974b023f88fd4.zip",
-                "reference": "287b29aeaada588923a47e677d6974b023f88fd4",
+                "url": "https://github.com/doctrine/doctrine2/archive/59aef2ca950ab30c72dbbd77f9ae446551751e58.zip",
+                "reference": "59aef2ca950ab30c72dbbd77f9ae446551751e58",
                 "shasum": ""
             },
             "require": {
@@ -818,7 +809,7 @@
             "suggest": {
                 "symfony/yaml": "If you want to use YAML Metadata Mapping Driver"
             },
-            "time": "2012-11-27 21:26:17",
+            "time": "2012-12-04 22:04:25",
             "bin": [
                 "bin/doctrine",
                 "bin/doctrine.php"
@@ -891,7 +882,6 @@
                     "WebDriver": "lib/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "Apache"
             ],
@@ -946,7 +936,6 @@
                     "lib"
                 ]
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "LGPL"
             ],
@@ -1092,7 +1081,6 @@
                     "JMS\\DiExtraBundle": ""
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "Apache"
             ],
@@ -1199,7 +1187,6 @@
                     "JMS\\SecurityExtraBundle": ""
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "Apache2"
             ],
@@ -1320,7 +1307,6 @@
                     "Liip\\FunctionalTestBundle": ""
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -1364,7 +1350,6 @@
                     "org\\bovigo\\vfs": "src/main/php"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "BSD"
             ],
@@ -1376,12 +1361,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog",
-                "reference": "b23cfd3d6ce0b6c050dda723040b83a1a6d7637e"
+                "reference": "546225bed27bea7d00b836e0f7d8954272e0cf42"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/Seldaek/monolog/archive/b23cfd3d6ce0b6c050dda723040b83a1a6d7637e.zip",
-                "reference": "b23cfd3d6ce0b6c050dda723040b83a1a6d7637e",
+                "url": "https://github.com/Seldaek/monolog/archive/546225bed27bea7d00b836e0f7d8954272e0cf42.zip",
+                "reference": "546225bed27bea7d00b836e0f7d8954272e0cf42",
                 "shasum": ""
             },
             "require": {
@@ -1395,7 +1380,7 @@
                 "ext-amqp": "Allow sending log messages to an AMQP server (1.0+ required)",
                 "ext-mongo": "Allow sending log messages to a MongoDB server"
             },
-            "time": "2012-11-14 15:46:10",
+            "time": "2012-12-04 11:59:29",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -1452,7 +1437,6 @@
                     "PHPParser": "lib/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "BSD-3-Clause"
             ],
@@ -1490,7 +1474,6 @@
             ],
             "type": "library",
             "installation-source": "source",
-            "notification-url": "https://packagist.org/downloads/",
             "description": "Official version of pdepend to be handled with Composer"
         },
         {
@@ -1808,7 +1791,6 @@
                     "": "src/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -1845,7 +1827,6 @@
                     "phpDocumentor": "src/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -1911,7 +1892,6 @@
                     ]
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -1951,7 +1931,6 @@
                     "phpDocumentor": "src/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -2001,7 +1980,6 @@
                     ]
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -2045,7 +2023,6 @@
                     ]
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -2077,7 +2054,6 @@
             "time": "2012-08-14 12:55:19",
             "type": "phpdocumentor-template",
             "installation-source": "source",
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -2110,7 +2086,6 @@
             "time": "2012-08-14 13:16:25",
             "type": "phpdocumentor-template",
             "installation-source": "source",
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -2144,7 +2119,6 @@
             "time": "2012-09-16 07:11:08",
             "type": "phpdocumentor-template",
             "installation-source": "source",
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -2177,7 +2151,6 @@
             "time": "2012-08-24 13:05:33",
             "type": "phpdocumentor-template",
             "installation-source": "source",
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -2210,7 +2183,6 @@
             "time": "2012-11-01 17:12:42",
             "type": "phpdocumentor-template",
             "installation-source": "source",
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -2244,7 +2216,6 @@
             "time": "2012-07-07 12:53:47",
             "type": "phpdocumentor-template",
             "installation-source": "source",
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -2284,7 +2255,6 @@
                     "phpDocumentor\\Composer": "src/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -2328,7 +2298,6 @@
                     "src/"
                 ]
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "BSD-3-Clause"
             ],
@@ -2366,7 +2335,6 @@
             ],
             "type": "library",
             "installation-source": "source",
-            "notification-url": "https://packagist.org/downloads/",
             "include-path": [
                 "../../pdepend/pdepend/src/main/php",
                 "src/main/php"
@@ -2379,12 +2347,12 @@
             "source": {
                 "type": "git",
                 "url": "git://github.com/sebastianbergmann/php-code-coverage.git",
-                "reference": "1.2.7"
+                "reference": "c6242a9faf0498faffb32a26660f29dd9f1abeff"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/sebastianbergmann/php-code-coverage/archive/1.2.7.zip",
-                "reference": "1.2.7",
+                "url": "https://github.com/sebastianbergmann/php-code-coverage/archive/c6242a9faf0498faffb32a26660f29dd9f1abeff.zip",
+                "reference": "c6242a9faf0498faffb32a26660f29dd9f1abeff",
                 "shasum": ""
             },
             "require": {
@@ -2397,7 +2365,7 @@
                 "ext-dom": "*",
                 "ext-xdebug": ">=2.0.5"
             },
-            "time": "2012-12-02 14:54:55",
+            "time": "2012-12-04 12:01:38",
             "type": "library",
             "installation-source": "source",
             "autoload": {
@@ -2452,7 +2420,6 @@
                     "File/"
                 ]
             },
-            "notification-url": "https://packagist.org/downloads/",
             "include-path": [
                 ""
             ],
@@ -2471,53 +2438,6 @@
             "keywords": [
                 "filesystem",
                 "iterator"
-            ]
-        },
-        {
-            "name": "phpunit/php-invoker",
-            "version": "1.1.2",
-            "source": {
-                "type": "git",
-                "url": "git://github.com/sebastianbergmann/php-invoker.git",
-                "reference": "1.1.2"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://github.com/sebastianbergmann/php-invoker/zipball/1.1.2",
-                "reference": "1.1.2",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.2.7",
-                "phpunit/php-timer": ">=1.0.1@stable",
-                "ext-pcntl": "*"
-            },
-            "time": "2012-10-05 09:20:45",
-            "type": "library",
-            "installation-source": "source",
-            "autoload": {
-                "classmap": [
-                    "PHP/"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "include-path": [
-                ""
-            ],
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Sebastian Bergmann",
-                    "email": "sb@sebastian-bergmann.de",
-                    "role": "lead"
-                }
-            ],
-            "description": "Utility class for invoking callables with a timeout.",
-            "homepage": "http://www.phpunit.de/",
-            "keywords": [
-                "process"
             ]
         },
         {
@@ -2545,7 +2465,6 @@
                     "Text/"
                 ]
             },
-            "notification-url": "https://packagist.org/downloads/",
             "include-path": [
                 ""
             ],
@@ -2590,7 +2509,6 @@
                     "PHP/"
                 ]
             },
-            "notification-url": "https://packagist.org/downloads/",
             "include-path": [
                 ""
             ],
@@ -2636,7 +2554,6 @@
                     "PHP/"
                 ]
             },
-            "notification-url": "https://packagist.org/downloads/",
             "include-path": [
                 ""
             ],
@@ -2705,7 +2622,6 @@
                     "PHPUnit/"
                 ]
             },
-            "notification-url": "https://packagist.org/downloads/",
             "include-path": [
                 "",
                 "../../symfony/yaml/"
@@ -2757,7 +2673,6 @@
                     "PHPUnit/"
                 ]
             },
-            "notification-url": "https://packagist.org/downloads/",
             "include-path": [
                 ""
             ],
@@ -2806,7 +2721,6 @@
                     "PHPUnit/"
                 ]
             },
-            "notification-url": "https://packagist.org/downloads/",
             "include-path": [
                 ""
             ],
@@ -2858,7 +2772,6 @@
                     "Pimple": "lib/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -2900,7 +2813,6 @@
                     "src/"
                 ]
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "BSD-3-Clause"
             ],
@@ -2945,7 +2857,6 @@
                     "Sensio\\Bundle\\DistributionBundle": ""
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -2993,7 +2904,6 @@
                     "Sensio\\Bundle\\FrameworkExtraBundle": ""
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -3046,7 +2956,6 @@
                     "Sensio\\Bundle\\GeneratorBundle": ""
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -3060,27 +2969,32 @@
         },
         {
             "name": "squizlabs/php_codesniffer",
-            "version": "1.4.2",
+            "version": "1.4.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/squizlabs/PHP_CodeSniffer",
-                "reference": "1.4.2"
+                "reference": "1.4.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/squizlabs/PHP_CodeSniffer/archive/1.4.2.zip",
-                "reference": "1.4.2",
+                "url": "https://github.com/squizlabs/PHP_CodeSniffer/archive/1.4.3.zip",
+                "reference": "1.4.3",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.1.2"
             },
-            "time": "2012-11-09 02:33:21",
+            "time": "2012-12-04 03:15:31",
             "bin": [
                 "scripts/phpcs"
             ],
             "type": "library",
             "installation-source": "source",
+            "autoload": {
+                "classmap": [
+                    "."
+                ]
+            },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "BSD-3-Clause"
@@ -3192,7 +3106,6 @@
                     "Symfony\\Bundle\\AsseticBundle": ""
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -3250,7 +3163,6 @@
                     "Symfony\\Bundle\\MonologBundle": ""
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -3306,7 +3218,6 @@
                     "Symfony\\Bundle\\SwiftmailerBundle": ""
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -3329,12 +3240,12 @@
             "source": {
                 "type": "git",
                 "url": "git://github.com/symfony/symfony.git",
-                "reference": "4f787fe03d38e7101da7582f6e0de278b77784e4"
+                "reference": "b94d4c400f1118f943016e1ade0644127186c37d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/symfony/symfony/archive/4f787fe03d38e7101da7582f6e0de278b77784e4.zip",
-                "reference": "4f787fe03d38e7101da7582f6e0de278b77784e4",
+                "url": "https://github.com/symfony/symfony/archive/b94d4c400f1118f943016e1ade0644127186c37d.zip",
+                "reference": "b94d4c400f1118f943016e1ade0644127186c37d",
                 "shasum": ""
             },
             "require": {
@@ -3383,7 +3294,7 @@
                 "propel/propel1": "dev-master",
                 "monolog/monolog": "1.*"
             },
-            "time": "2012-12-03 15:25:15",
+            "time": "2012-12-04 08:05:42",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -3444,7 +3355,6 @@
                     "src/"
                 ]
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "BSD-3-Clause"
             ],
@@ -3535,7 +3445,6 @@
                     "Twig_": "lib/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "BSD-3"
             ],
@@ -3777,7 +3686,6 @@
                     "src"
                 ]
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "Apache-2.0"
             ],
@@ -3844,7 +3752,6 @@
                     "src"
                 ]
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "Apache-2.0"
             ],
