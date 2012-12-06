@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <project name="phpqatools-edition default build file" default="build">
     <target name="build"
-            depends="prepare,symfony,lint,phploc,pdepend,phpmd-ci,phpcs-ci,phpcpd,phpdoc,phpunit,behat,phpcb"/>
+            depends="prepare,symfony,lint,phploc,pdepend,phpmd-ci,phpcs-ci,phpcpd,phpdoc,phpunit,phpcb"/>
 
     <target name="build-test"
-            depends="prepare,symfony,phpunit,behat"/>
+            depends="prepare,symfony,phpunit"/>
 
     <target name="build-parallel"
             depends="prepare,symfony,lint,tools-parallel,phpunit,phpcb"/>
@@ -172,14 +172,16 @@
         </exec>
     </target>
 
+    <!--
     <target name="behat" description="Run Behat Scenarios from Bundles">
         <exec executable="php" failonerror="true">
             <arg value="${basedir}/bin/behat" />
-            <arg value="--profile=ci" />
-            <arg value="--out=${basedir}/build/behat/report.html" />
-            <arg value="--all" />
+            <arg value="-p ci" />
+            <arg value="-o ${basedir}/build/behat/report.html" />
+            <arg value="-a" />
         </exec>
     </target>
+    -->
 
     <target name="phpcb" description="Aggregate tool output with PHP_CodeBrowser">
         <exec executable="${basedir}/bin/phpcb">
