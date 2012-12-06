@@ -418,13 +418,6 @@
           <wrapperName>htmlpublisher-wrapper.html</wrapperName>
         </htmlpublisher.HtmlPublisherTarget>
         <htmlpublisher.HtmlPublisherTarget>
-          <reportName>Behat HTML Report</reportName>
-          <reportDir>build/behat</reportDir>
-          <reportFiles>report.html</reportFiles>
-          <keepAll>true</keepAll>
-          <wrapperName>htmlpublisher-wrapper.html</wrapperName>
-        </htmlpublisher.HtmlPublisherTarget>
-        <htmlpublisher.HtmlPublisherTarget>
           <reportName>API</reportName>
           <reportDir>build/api</reportDir>
           <reportFiles>index.xhtml</reportFiles>
