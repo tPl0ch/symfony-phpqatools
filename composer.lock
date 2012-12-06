@@ -1,5 +1,5 @@
 {
-    "hash": "cfe0b0ff762edbc845a212899a9dc3c6",
+    "hash": "2530b18e2c736fa5bf32c7373da904b5",
     "packages": [
         {
             "name": "behat/behat",
@@ -3240,12 +3240,12 @@
             "source": {
                 "type": "git",
                 "url": "git://github.com/symfony/symfony.git",
-                "reference": "b94d4c400f1118f943016e1ade0644127186c37d"
+                "reference": "889bd2ee62ed3e1f65229dadde48aff6c6a7bb88"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/symfony/symfony/archive/b94d4c400f1118f943016e1ade0644127186c37d.zip",
-                "reference": "b94d4c400f1118f943016e1ade0644127186c37d",
+                "url": "https://github.com/symfony/symfony/archive/889bd2ee62ed3e1f65229dadde48aff6c6a7bb88.zip",
+                "reference": "889bd2ee62ed3e1f65229dadde48aff6c6a7bb88",
                 "shasum": ""
             },
             "require": {
@@ -3294,7 +3294,7 @@
                 "propel/propel1": "dev-master",
                 "monolog/monolog": "1.*"
             },
-            "time": "2012-12-04 08:05:42",
+            "time": "2012-12-06 07:51:00",
             "type": "library",
             "extra": {
                 "branch-alias": {
