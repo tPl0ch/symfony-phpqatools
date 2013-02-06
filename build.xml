@@ -97,7 +97,7 @@
         </apply>
 	<exec executable="${basedir}/app/console" failonerror="true">
 		<arg value="twig:lint" />
-		<arg path="${basedir}/src"
+		<arg path="${basedir}/src" />
 	</exec>
     </target>
 
