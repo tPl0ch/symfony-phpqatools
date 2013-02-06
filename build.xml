@@ -4,7 +4,7 @@
             depends="prepare,symfony,lint,phploc,pdepend,phpmd-ci,phpcs-ci,phpcpd,phpdoc,phpunit,phpcb"/>
 
     <target name="build-test"
-            depends="prepare,symfony,phpunit"/>
+            depends="prepare,symfony,lint,phpunit"/>
 
     <target name="build-parallel"
             depends="prepare,symfony,lint,tools-parallel,phpunit,phpcb"/>
@@ -95,6 +95,10 @@
                 <modified />
             </fileset>
         </apply>
+	<exec executable="${basedir}/app/console" failonerror="true">
+		<arg value="twig:lint" />
+		<arg path="${basedir}/src" />
+	</exec>
     </target>
 
     <target name="phploc" description="Measure project size using PHPLOC">
