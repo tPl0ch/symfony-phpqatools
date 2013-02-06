@@ -6,9 +6,9 @@
     },
     "require": {
         "php": ">=5.3.3",
-        "symfony/symfony": "2.1.x-dev",
+        "symfony/symfony": "2.1.*",
         "doctrine/orm": ">=2.2.3,<2.4-dev",
-        "doctrine/doctrine-bundle": "1.0.*",
+        "doctrine/doctrine-bundle": "1.1.*",
         "twig/extensions": "1.0.*@dev",
         "symfony/assetic-bundle": "2.1.*",
         "symfony/swiftmailer-bundle": "2.1.*",
@@ -22,7 +22,7 @@
         "phpunit/phpunit": "3.7.*",
         "phpunit/phpunit-selenium": "1.2.*",
         "pdepend/pdepend": "1.1.*",
-        "pear-pear.phpunit.de/phpcpd": "*",
+        "sebastian/phpcpd": "*",
         "phpmd/phpmd": "*",
         "squizlabs/php_codesniffer": "1.4.*",
         "phpdocumentor/phpdocumentor": "dev-develop",
@@ -55,7 +55,11 @@
         {
             "type": "pear",
             "url": "pear.php.net"
-        }
+        },
+	{
+	    "type": "git",
+	    "url": "https://github.com/Ocramius/phpcpd.git"
+	}
     ],
     "scripts": {
         "post-install-cmd": [
@@ -76,7 +80,10 @@
     },
     "extra": {
         "symfony-app-dir": "app",
-        "symfony-web-dir": "web"
+        "symfony-web-dir": "web",
+        "branch-alias": {
+            "dev-master": "2.1-dev"
+        }
     },
     "config": {
         "bin-dir": "bin"
