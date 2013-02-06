@@ -82,7 +82,7 @@
         </exec>
     </target>
 
-    <target name="symfony" depends="symfony-prepare,composer,symfony-cc">
+    <target name="symfony" depends="symfony-prepare,symfony-cc,composer">
         <echo message="Symfony2 tasks end" />
     </target>
 
